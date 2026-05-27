@@ -1,4 +1,9 @@
 def palindrome_checker (word):
+    """
+        Verifies if given word is a palindrome.
+        Arguments:
+        word
+    """    
     word_length = len(word)
     counter = 1
     half = word_length // 2
@@ -10,7 +15,7 @@ def palindrome_checker (word):
   
     return True
 
-if palindrome_checker("pottop"):
+if palindrome_checker("potop"):
     print("To jest palindrom.")
 else:
     print("To nie jest palindrom.")
